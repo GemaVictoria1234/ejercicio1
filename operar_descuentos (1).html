@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <body bgcolor = "blue">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="descuento.js"></script>
+    <title>Document</title>
+    </body>
+</head>
+<body>
+    <div style="background-image: url(https://img.freepik.com/free-photo/hand-painted-watercolor-background-with-sky-clouds-shape_24972-1095.jpg?size=626&ext=jpg); background-repeat: no-repeat; background-size: cover;">
+    <header>
+        <br> <br> 
+        <h1 align="center">CALCULAR DESCUENTOS DE UN PRODUCTO 
+            <img 
+            aling="center"
+            width="64px" 
+            src="https://cdn-icons-png.flaticon.com/512/39/39887.png" 
+            alt="icono descuento">
+        </h1>
+        <br> <br>
+    </header>
+    <section>
+        <form >
+        <fieldset>
+            <legend style="color: hsl(231, 94%, 51%);">INGRESO DE DATOS</legend>
+            <br> <br>
+            <label for="entrada_precio_producto">POR FAVOR INGRESE EL PRECIO DEL PRODUCTO</label>
+            <br> <br>
+            <input id="entrada_precio_producto"type="number" placeholder = "Por favor escriba el precio" style="background-color: yellow;">
+            <br> <br>  
+            <label for="entrada_valor_descuento">POR FAVOR INGRESE EL VALOR DEL DESCUENTO</label>
+            <br> <br>
+            <input id="entrada_valor_descuento"type="number" placeholder="Ingrese el Descuento" style="background-color: yellow;">
+            <br> <br>
+            <button type="button" onclick="onClickButtonCalculatePriceDiscount()" style="background-color: rgb(58, 192, 24);">CALCULAR</button>
+             <br> <br> <br>
+            <p id="result"></p>
+        </fieldset>
+        </form>
+    </section>
+    </div>
+</body>
+</html>

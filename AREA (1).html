@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AREA_CUADRADO</title>
+    <script src="PROYECTOS1.js"></script>
+</head>
+
+<body style="background-image: url(https://www.esteticamedicapoyato.com/wp/wp-content/uploads/808483-free-blue-background1.jpg); background-repeat: no-repeat; background-size: cover;">
+    <br>
+    <br>
+    <center>
+        <h1 style="color: rgb(131, 50, 185);">CALCULADORA FIGURAS GEOMETRICAS</h1>
+    <br>
+    <br>
+    <button type="button" onclick="botones('cuadrado')" style="background-color: orange; padding-top: 6px; padding-bottom: 4px;">
+        <img src=https://www.universoformulas.com/wp-content/uploads/2014/04/area-cuadrado-520x245.jpg width="300"
+            height="150">
+    </button>
+    <button type="button" onclick="botones('triangulo')" style="background-color: tomato; padding-top: 6px; padding-bottom: 4px;">
+        <img src=https://www.universoformulas.com/wp-content/uploads/2014/04/area-triangulo-base-altura-conocida-520x245.jpg
+            width="300" height="150">
+    </button>
+    <button type="button" onclick="botones('circulo')" style="background-color: royalblue; padding-top: 6px; padding-bottom: 4px;">
+        <img src=https://www.universoformulas.com/wp-content/uploads/2014/04/circulo.jpg width="300" height="150">
+    </button>
+    <button type="button" onclick="botones('rectangulo')" style="background-color: seagreen; padding-top: 6px; padding-bottom: 4px;">
+        <img src=https://www.universoformulas.com/wp-content/uploads/2014/04/perimetro-rectangulo-520x245.jpg
+            width="300" height="150">
+    </button>
+    </center>
+    <br><br>
+    <center>
+        <h2 id="seleccion" style="color: rgb(131, 50, 185);">CUADRADO</h2>
+        <center>
+            <section>
+                <form>
+                    <label for="inMedida1" id="laMedida1" style="color: rgb(131, 50, 185);">Digite el valor de un lado__</label>
+                    <input id="inMedida1" type="number" />
+                    <br>
+                    <label for="inMedida2" id="laMedida2" style="color: rgb(131, 50, 185);"></label>
+                    <input id="inMedida2" type="hidden"/>
+                    <br>
+                    <br>
+                    <button type="button" onclick="onclickButton()" style="background-color: chartreuse;">
+                        CALCULAR
+                    </button>
+                    <br>
+                    <br>
+                    <h3 id="txArea" style="color: rgb(131, 50, 185);"></h3>
+                    <h3 id="txPerimetro" style="color: rgb(131, 50, 185);"></h3>
+                </form>
+            </section>
+</body>
+
+</html>
